@@ -3,7 +3,7 @@
 ## in R. For example, if X is a square invertible matrix, then solve(X) returns
 ## its inverse.
 ##
-## sergio.f.mendoza-barrera@ieee.org
+## smendoza.barrera@gmail.com
 ## Fri Jun 20 21:53:24 CDT 2014
 ##
 

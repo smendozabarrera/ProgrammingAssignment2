@@ -54,7 +54,7 @@ cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         inv  <- x$getinverse()          # Calling the getinverse() of the x special matrix object
         if (!is.null(inv)){             # If inv is not null then return cached inv value
-                message("getting cached data")
+                message("\n\t*** Getting cached data! ***\n")
                 return(inv)
         }
         data  <- x$get()                # Extract the matrix class from the x special matrix defined

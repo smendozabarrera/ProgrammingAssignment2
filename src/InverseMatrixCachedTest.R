@@ -62,4 +62,13 @@ debug(cacheSolve)
 myCachedInvMatrix <- cacheSolve(myCachedM)
 myCachedInvMatrix
 
+seq1 <- c(1, 0, 5, 2, 1, 6, 3, 4, 0)
+myM <- matrix(seq1, 3)
+myM
+
+## Third time call - new calculation
+debug(cacheSolve)
+myCachedInvMatrix <- cacheSolve(myCachedM)
+myCachedInvMatrix
+
 ## EOF
